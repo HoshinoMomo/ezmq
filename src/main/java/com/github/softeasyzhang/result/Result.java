@@ -1,4 +1,4 @@
-package com.easyzhang.result;
+package com.github.softeasyzhang.result;
 
 
 /**
