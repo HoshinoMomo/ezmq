@@ -13,11 +13,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class QueueController {
 
     /**
-     * 接收消息队列
-     */
-    private final BlockingQueue<DelayMessage> receiveQueue = new LinkedBlockingQueue<DelayMessage>();
-
-    /**
      * 发送消息队列
      */
     private final BlockingQueue<DelayMessage> sendQueue = new LinkedBlockingQueue<DelayMessage>();

@@ -4,6 +4,7 @@ package com.github.softeasyzhang.database.defaults;
 import com.github.softeasyzhang.database.DatabaseOperate;
 import com.github.softeasyzhang.entity.DelayMessage;
 
+import java.rmi.Remote;
 import java.util.List;
 
 /**
@@ -11,7 +12,7 @@ import java.util.List;
  * @date 2018/10/18 -  17:17
  */
 
-public class DefaultDatabaseOperate implements DatabaseOperate {
+public class DefaultDatabaseOperate implements DatabaseOperate{
 
     public void insert(DelayMessage delayMessage) {
 
