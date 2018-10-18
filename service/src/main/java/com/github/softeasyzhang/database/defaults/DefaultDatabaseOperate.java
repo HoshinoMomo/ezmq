@@ -13,7 +13,7 @@ import java.util.List;
 
 public class DefaultDatabaseOperate implements DatabaseOperate {
 
-    public void insert() {
+    public void insert(DelayMessage delayMessage) {
 
     }
 

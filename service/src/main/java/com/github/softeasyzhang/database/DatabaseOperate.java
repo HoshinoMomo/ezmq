@@ -10,7 +10,7 @@ import java.util.List;
  */
 public interface DatabaseOperate {
 
-    void insert();
+    void insert(DelayMessage delayMessage);
 
     List<DelayMessage> getMessagesByCondition(String condition);
 
