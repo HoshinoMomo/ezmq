@@ -4,7 +4,6 @@ package com.github.softeasyzhang.database.defaults;
 import com.github.softeasyzhang.database.DatabaseOperate;
 import com.github.softeasyzhang.entity.DelayMessage;
 
-import java.rmi.Remote;
 import java.util.List;
 
 /**
